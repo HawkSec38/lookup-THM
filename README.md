@@ -163,7 +163,7 @@ sudo -l
 Output showed:
 
 ```
-User think may run the following commands on ip-10-10-68-218:
+User thinks may run the following commands on ip-10-10-68-218:
     (ALL) /usr/bin/look
 ```
 
@@ -203,9 +203,3 @@ Once root, I viewed `/root/root.txt`:
 * **Patch management matters** — elFinder versions before 2.1.48/2.1.59 had known vulnerabilities; keep web apps up to date.
 * **Sudo misconfigurations** are low-hanging fruit. `sudo -l` should always be checked — it often yields direct privilege escalation paths.
 * **When a post-exploit session is unstable**, migrate to a long-lived process or use an alternative stable shell mechanism (webshell, reverse shell with netcat, payload migration).
-
-ate the file content for you),
-* produce a second document `writeup.md` that is more verbose and includes command outputs and exact msfconsole logs, or
-* format this into a GitHub Pages-friendly README with proper screenshots and a short TL;DR for social media.
-
-Which would you like me to generate next?
